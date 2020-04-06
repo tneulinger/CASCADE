@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/thomas/workspace/G4WORK/CASCADE/test/main.cc
+/home/thomas/github/CASCADE/test/main.cc
 globals.hh
-/home/thomas/workspace/G4WORK/CASCADE/test/globals.hh
+/home/thomas/github/CASCADE/test/globals.hh
 G4Material.hh
-/home/thomas/workspace/G4WORK/CASCADE/test/G4Material.hh
+/home/thomas/github/CASCADE/test/G4Material.hh
 G4NistManager.hh
-/home/thomas/workspace/G4WORK/CASCADE/test/G4NistManager.hh
+/home/thomas/github/CASCADE/test/G4NistManager.hh
 G4Box.hh
-/home/thomas/workspace/G4WORK/CASCADE/test/G4Box.hh
+/home/thomas/github/CASCADE/test/G4Box.hh
 G4LogicalVolume.hh
-/home/thomas/workspace/G4WORK/CASCADE/test/G4LogicalVolume.hh
+/home/thomas/github/CASCADE/test/G4LogicalVolume.hh
 G4PVPlacement.hh
-/home/thomas/workspace/G4WORK/CASCADE/test/G4PVPlacement.hh
+/home/thomas/github/CASCADE/test/G4PVPlacement.hh
 G4SystemOfUnits.hh
-/home/thomas/workspace/G4WORK/CASCADE/test/G4SystemOfUnits.hh
+/home/thomas/github/CASCADE/test/G4SystemOfUnits.hh
 
 /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
 iosfwd

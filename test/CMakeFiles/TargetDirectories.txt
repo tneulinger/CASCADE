@@ -1,3 +1,0 @@
-/home/thomas/workspace/G4WORK/CASCADE/test/CMakeFiles/rebuild_cache.dir
-/home/thomas/workspace/G4WORK/CASCADE/test/CMakeFiles/main.dir
-/home/thomas/workspace/G4WORK/CASCADE/test/CMakeFiles/edit_cache.dir

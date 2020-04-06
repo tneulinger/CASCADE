@@ -61,6 +61,7 @@ int main(int argc, char** argv)
   visManager->Initialize();
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
   // ui manager
   G4UImanager* uiManager = G4UImanager::GetUIpointer();
   if ( !uiExecutive )

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thomas/workspace/G4WORK/CASCADE/test/main.cc" "/home/thomas/workspace/G4WORK/CASCADE/test/CMakeFiles/main.dir/main.cc.o"
+  "/home/thomas/github/CASCADE/test/main.cc" "/home/thomas/github/CASCADE/test/build/CMakeFiles/main.dir/main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -34,7 +34,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/applications/geant4/geant4.10.04.p01-install/include/Geant4"
-  "inc"
+  "../inc"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"

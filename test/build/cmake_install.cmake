@@ -1,4 +1,4 @@
-# Install script for directory: /home/thomas/workspace/G4WORK/CASCADE/test
+# Install script for directory: /home/thomas/github/CASCADE/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/thomas/workspace/G4WORK/CASCADE/test/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thomas/github/CASCADE/test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

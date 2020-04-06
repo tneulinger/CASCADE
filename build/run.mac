@@ -3,7 +3,6 @@
 #/event/verbose 0
 #/tracking/verbose 1
 
-
 /gps/particle alpha
 
 /gps/pos/centre 0 0 -1.6 cm
@@ -13,6 +12,5 @@
 /gps/ang/maxtheta 180 deg
 
 /gps/ene/mono 5.48 MeV
-
 
 /run/beamOn 1
