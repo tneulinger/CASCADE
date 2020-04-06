@@ -1,0 +1,26 @@
+CASCADE detector simulation
+
+# TO BUILD AND RUN:
+
+# 1. change to build directory
+cd build
+
+# 2. cmake
+cmake ../
+# this requires that $G4INSTALL = /your/geant4/install/directory
+# otherwise add this flag
+cmake -DGeat4_DIR=/your/geant4/install/directory ../
+
+# 3. make
+make
+
+# 4. run the application
+# 4a. run in batch mode
+./CASCADE run.mac
+# or
+./CASCADE run.mac > run.out
+# 4a. run in interactive mode
+./CASCADE
+# then at terminal
+/control/execute vis.mac
+/control/execute run.mac
