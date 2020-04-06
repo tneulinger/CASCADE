@@ -1,0 +1,7 @@
+/vis/open OGL
+/vis/drawVolume
+/vis/geometry/set/visibility logic-World 0  false
+/vis/scene/add/axes
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate 10
+/vis/viewer/set/viewpointThetaPhi -40 -50
