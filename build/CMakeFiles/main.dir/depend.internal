@@ -4,7 +4,7 @@
 CMakeFiles/main.dir/main.cc.o
  ../inc/CASCADEActionInitialization.hh
  ../inc/CASCADEDetectorConstruction.hh
- /home/thomas/workspace/G4WORK/CASCADE/main.cc
+ /home/thomas/github/CASCADE/main.cc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -357,7 +357,7 @@ CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o
  ../inc/CASCADEPrimaryGeneratorAction.hh
  ../inc/CASCADERunAction.hh
  ../inc/CASCADESteppingAction.hh
- /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEActionInitialization.cc
+ /home/thomas/github/CASCADE/src/CASCADEActionInitialization.cc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -536,7 +536,7 @@ CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/windefs.hh
 CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o
  ../inc/CASCADEDetectorConstruction.hh
- /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEDetectorConstruction.cc
+ /home/thomas/github/CASCADE/src/CASCADEDetectorConstruction.cc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -640,7 +640,7 @@ CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o
 CMakeFiles/main.dir/src/CASCADEEventAction.cc.o
  ../inc/CASCADEEventAction.hh
  ../inc/CASCADERunAction.hh
- /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEEventAction.cc
+ /home/thomas/github/CASCADE/src/CASCADEEventAction.cc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -902,7 +902,7 @@ CMakeFiles/main.dir/src/CASCADEEventAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/windefs.hh
 CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o
  ../inc/CASCADEPrimaryGeneratorAction.hh
- /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEPrimaryGeneratorAction.cc
+ /home/thomas/github/CASCADE/src/CASCADEPrimaryGeneratorAction.cc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1046,7 +1046,7 @@ CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/windefs.hh
 CMakeFiles/main.dir/src/CASCADERunAction.cc.o
  ../inc/CASCADERunAction.hh
- /home/thomas/workspace/G4WORK/CASCADE/src/CASCADERunAction.cc
+ /home/thomas/github/CASCADE/src/CASCADERunAction.cc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ExceptionSeverity.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4String.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4String.icc
@@ -1060,7 +1060,7 @@ CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o
  ../inc/CASCADEDetectorConstruction.hh
  ../inc/CASCADEEventAction.hh
  ../inc/CASCADESteppingAction.hh
- /home/thomas/workspace/G4WORK/CASCADE/src/CASCADESteppingAction.cc
+ /home/thomas/github/CASCADE/src/CASCADESteppingAction.cc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Geometry/Point3D.h

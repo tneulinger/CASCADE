@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thomas/workspace/G4WORK/CASCADE/main.cc" "/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles/main.dir/main.cc.o"
-  "/home/thomas/workspace/G4WORK/CASCADE/src/CASCADEActionInitialization.cc" "/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o"
-  "/home/thomas/workspace/G4WORK/CASCADE/src/CASCADEDetectorConstruction.cc" "/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o"
-  "/home/thomas/workspace/G4WORK/CASCADE/src/CASCADEEventAction.cc" "/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles/main.dir/src/CASCADEEventAction.cc.o"
-  "/home/thomas/workspace/G4WORK/CASCADE/src/CASCADEPrimaryGeneratorAction.cc" "/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o"
-  "/home/thomas/workspace/G4WORK/CASCADE/src/CASCADERunAction.cc" "/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles/main.dir/src/CASCADERunAction.cc.o"
-  "/home/thomas/workspace/G4WORK/CASCADE/src/CASCADESteppingAction.cc" "/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o"
+  "/home/thomas/github/CASCADE/main.cc" "/home/thomas/github/CASCADE/build/CMakeFiles/main.dir/main.cc.o"
+  "/home/thomas/github/CASCADE/src/CASCADEActionInitialization.cc" "/home/thomas/github/CASCADE/build/CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o"
+  "/home/thomas/github/CASCADE/src/CASCADEDetectorConstruction.cc" "/home/thomas/github/CASCADE/build/CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o"
+  "/home/thomas/github/CASCADE/src/CASCADEEventAction.cc" "/home/thomas/github/CASCADE/build/CMakeFiles/main.dir/src/CASCADEEventAction.cc.o"
+  "/home/thomas/github/CASCADE/src/CASCADEPrimaryGeneratorAction.cc" "/home/thomas/github/CASCADE/build/CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o"
+  "/home/thomas/github/CASCADE/src/CASCADERunAction.cc" "/home/thomas/github/CASCADE/build/CMakeFiles/main.dir/src/CASCADERunAction.cc.o"
+  "/home/thomas/github/CASCADE/src/CASCADESteppingAction.cc" "/home/thomas/github/CASCADE/build/CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

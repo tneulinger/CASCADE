@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomas/workspace/G4WORK/CASCADE
+CMAKE_SOURCE_DIR = /home/thomas/github/CASCADE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomas/workspace/G4WORK/CASCADE/build
+CMAKE_BINARY_DIR = /home/thomas/github/CASCADE/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cc.o: ../main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cc.o -c /home/thomas/workspace/G4WORK/CASCADE/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cc.o -c /home/thomas/github/CASCADE/main.cc
 
 CMakeFiles/main.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/workspace/G4WORK/CASCADE/main.cc > CMakeFiles/main.dir/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/github/CASCADE/main.cc > CMakeFiles/main.dir/main.cc.i
 
 CMakeFiles/main.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/workspace/G4WORK/CASCADE/main.cc -o CMakeFiles/main.dir/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/github/CASCADE/main.cc -o CMakeFiles/main.dir/main.cc.s
 
 CMakeFiles/main.dir/main.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/main.dir/main.cc.o.provides.build: CMakeFiles/main.dir/main.cc.o
 
 CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o: ../src/CASCADEActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o -c /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o -c /home/thomas/github/CASCADE/src/CASCADEActionInitialization.cc
 
 CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEActionInitialization.cc > CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/github/CASCADE/src/CASCADEActionInitialization.cc > CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.i
 
 CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEActionInitialization.cc -o CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/github/CASCADE/src/CASCADEActionInitialization.cc -o CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.s
 
 CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/main.dir/src/CASCADEActionInitialization.cc.o.provides.build: CMakeFi
 
 CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o: ../src/CASCADEDetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o -c /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o -c /home/thomas/github/CASCADE/src/CASCADEDetectorConstruction.cc
 
 CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEDetectorConstruction.cc > CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/github/CASCADE/src/CASCADEDetectorConstruction.cc > CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.i
 
 CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEDetectorConstruction.cc -o CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/github/CASCADE/src/CASCADEDetectorConstruction.cc -o CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.s
 
 CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/main.dir/src/CASCADEDetectorConstruction.cc.o.provides.build: CMakeFi
 
 CMakeFiles/main.dir/src/CASCADEEventAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/CASCADEEventAction.cc.o: ../src/CASCADEEventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/CASCADEEventAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADEEventAction.cc.o -c /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEEventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/CASCADEEventAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADEEventAction.cc.o -c /home/thomas/github/CASCADE/src/CASCADEEventAction.cc
 
 CMakeFiles/main.dir/src/CASCADEEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/CASCADEEventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEEventAction.cc > CMakeFiles/main.dir/src/CASCADEEventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/github/CASCADE/src/CASCADEEventAction.cc > CMakeFiles/main.dir/src/CASCADEEventAction.cc.i
 
 CMakeFiles/main.dir/src/CASCADEEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/CASCADEEventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEEventAction.cc -o CMakeFiles/main.dir/src/CASCADEEventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/github/CASCADE/src/CASCADEEventAction.cc -o CMakeFiles/main.dir/src/CASCADEEventAction.cc.s
 
 CMakeFiles/main.dir/src/CASCADEEventAction.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/main.dir/src/CASCADEEventAction.cc.o.provides.build: CMakeFiles/main.
 
 CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o: ../src/CASCADEPrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o -c /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEPrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o -c /home/thomas/github/CASCADE/src/CASCADEPrimaryGeneratorAction.cc
 
 CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEPrimaryGeneratorAction.cc > CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/github/CASCADE/src/CASCADEPrimaryGeneratorAction.cc > CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.i
 
 CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/workspace/G4WORK/CASCADE/src/CASCADEPrimaryGeneratorAction.cc -o CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/github/CASCADE/src/CASCADEPrimaryGeneratorAction.cc -o CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.s
 
 CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/main.dir/src/CASCADEPrimaryGeneratorAction.cc.o.provides.build: CMake
 
 CMakeFiles/main.dir/src/CASCADERunAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/CASCADERunAction.cc.o: ../src/CASCADERunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/CASCADERunAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADERunAction.cc.o -c /home/thomas/workspace/G4WORK/CASCADE/src/CASCADERunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/CASCADERunAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADERunAction.cc.o -c /home/thomas/github/CASCADE/src/CASCADERunAction.cc
 
 CMakeFiles/main.dir/src/CASCADERunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/CASCADERunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/workspace/G4WORK/CASCADE/src/CASCADERunAction.cc > CMakeFiles/main.dir/src/CASCADERunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/github/CASCADE/src/CASCADERunAction.cc > CMakeFiles/main.dir/src/CASCADERunAction.cc.i
 
 CMakeFiles/main.dir/src/CASCADERunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/CASCADERunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/workspace/G4WORK/CASCADE/src/CASCADERunAction.cc -o CMakeFiles/main.dir/src/CASCADERunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/github/CASCADE/src/CASCADERunAction.cc -o CMakeFiles/main.dir/src/CASCADERunAction.cc.s
 
 CMakeFiles/main.dir/src/CASCADERunAction.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/main.dir/src/CASCADERunAction.cc.o.provides.build: CMakeFiles/main.di
 
 CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o: ../src/CASCADESteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o -c /home/thomas/workspace/G4WORK/CASCADE/src/CASCADESteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o -c /home/thomas/github/CASCADE/src/CASCADESteppingAction.cc
 
 CMakeFiles/main.dir/src/CASCADESteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/CASCADESteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/workspace/G4WORK/CASCADE/src/CASCADESteppingAction.cc > CMakeFiles/main.dir/src/CASCADESteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/github/CASCADE/src/CASCADESteppingAction.cc > CMakeFiles/main.dir/src/CASCADESteppingAction.cc.i
 
 CMakeFiles/main.dir/src/CASCADESteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/CASCADESteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/workspace/G4WORK/CASCADE/src/CASCADESteppingAction.cc -o CMakeFiles/main.dir/src/CASCADESteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/github/CASCADE/src/CASCADESteppingAction.cc -o CMakeFiles/main.dir/src/CASCADESteppingAction.cc.s
 
 CMakeFiles/main.dir/src/CASCADESteppingAction.cc.o.requires:
 
@@ -294,7 +294,7 @@ main: /opt/applications/geant4/geant4.10.04.p01-install/lib/libG4intercoms.so
 main: /opt/applications/geant4/geant4.10.04.p01-install/lib/libG4global.so
 main: /opt/applications/geant4/geant4.10.04.p01-install/lib/libG4clhep.so
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -317,6 +317,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/thomas/workspace/G4WORK/CASCADE/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/workspace/G4WORK/CASCADE /home/thomas/workspace/G4WORK/CASCADE /home/thomas/workspace/G4WORK/CASCADE/build /home/thomas/workspace/G4WORK/CASCADE/build /home/thomas/workspace/G4WORK/CASCADE/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/github/CASCADE/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/github/CASCADE /home/thomas/github/CASCADE /home/thomas/github/CASCADE/build /home/thomas/github/CASCADE/build /home/thomas/github/CASCADE/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
