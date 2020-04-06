@@ -22,5 +22,4 @@ make
 # 4a. run in interactive mode
 ./CASCADE
 # then at terminal
-/control/execute vis.mac
 /control/execute run.mac

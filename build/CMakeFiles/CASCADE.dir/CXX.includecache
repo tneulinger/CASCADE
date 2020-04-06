@@ -45,10 +45,10 @@ G4Step.hh
 /home/thomas/github/CASCADE/CASCADE.cc
 globals.hh
 /home/thomas/github/CASCADE/globals.hh
-G4RunManager.hh
-/home/thomas/github/CASCADE/G4RunManager.hh
 G4PhysListFactory.hh
 /home/thomas/github/CASCADE/G4PhysListFactory.hh
+G4RunManager.hh
+/home/thomas/github/CASCADE/G4RunManager.hh
 G4UIExecutive.hh
 /home/thomas/github/CASCADE/G4UIExecutive.hh
 G4UImanager.hh
