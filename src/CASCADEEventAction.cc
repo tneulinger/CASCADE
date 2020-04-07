@@ -1,11 +1,11 @@
-
-#include "CASCADEEventAction.hh"
-#include "CASCADERunAction.hh"
+#include "globals.hh"
 
 #include "G4Event.hh"
 #include "G4RunManager.hh"
 
-#include "globals.hh"
+#include "Analysis.hh"
+#include "CASCADEEventAction.hh"
+#include "CASCADERunAction.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -32,5 +32,8 @@ void CASCADEEventAction::BeginOfEventAction(const G4Event*)
 void CASCADEEventAction::EndOfEventAction(const G4Event*)
 {
   fRunAction->AddEdep(fEdep);
-  G4cout << fEdep << G4endl;
+
+  // get analysis manager and fill histogram
+  auto analysisManager = G4AnalysisManager::Instance();
+  analysisManager->FillH1(0, fEdep);
 }

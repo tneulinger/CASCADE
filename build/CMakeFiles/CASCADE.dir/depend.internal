@@ -638,6 +638,7 @@ CMakeFiles/CASCADE.dir/src/CASCADEDetectorConstruction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tls.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/windefs.hh
 CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
+ ../inc/Analysis.hh
  ../inc/CASCADEEventAction.hh
  ../inc/CASCADERunAction.hh
  /home/thomas/github/CASCADE/src/CASCADEEventAction.cc
@@ -715,10 +716,18 @@ CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AffineTransform.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4Allocator.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AllocatorPool.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AnalysisManagerState.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AnalysisUtilities.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AnalysisVerbose.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ApplicationState.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AutoLock.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AuxiliaryNavServices.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AuxiliaryNavServices.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BaseAnalysisManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BaseFileManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BaseNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BaseRNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BinScheme.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BlockingList.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BlockingList.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ClassificationOfNewTrack.hh
@@ -736,6 +745,7 @@ CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ExceptionSeverity.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4Exp.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4FastVector.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4Fcn.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ForceCondition.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4GPILSelection.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4GRSSolid.hh
@@ -743,7 +753,12 @@ CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4GRSVolume.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4GRSVolume.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4GeomSplitter.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4H1ToolsManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4H2ToolsManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4H3ToolsManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4HCofThisEvent.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4HnInformation.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4HnManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4IonisParamElm.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4IonisParamMat.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4Isotope.hh
@@ -787,6 +802,8 @@ CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4NormalNavigation.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4NormalNavigation.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4OrderedTable.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4P1ToolsManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4P2ToolsManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4PDefManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ParameterisedNavigation.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ParameterisedNavigation.icc
@@ -819,6 +836,13 @@ CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RegularNavigation.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ReplicaNavigation.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ReplicaNavigation.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootAnalysisManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootAnalysisManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootAnalysisReader.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootAnalysisReader.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootFileManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootRNtupleManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RotationMatrix.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RunManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RunManagerKernel.hh
@@ -841,8 +865,20 @@ CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4SteppingManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4String.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4String.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4THnManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4THnManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TNtupleDescription.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TNtupleManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TRNtupleDescription.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TRNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TRNtupleManager.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4Threading.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ThreeVector.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ToolsAnalysisManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ToolsAnalysisManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ToolsAnalysisReader.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ToolsAnalysisReader.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TouchableHandle.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TouchableHistory.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TouchableHistory.icc
@@ -868,14 +904,26 @@ CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4UserStackingAction.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4UserSteppingAction.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4UserTrackingAction.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VAnalysisManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VAnalysisManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VAnalysisReader.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VAnalysisReader.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VDigiCollection.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VFileManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VH1Manager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VH2Manager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VH3Manager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VHitsCollection.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VP1Manager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VP2Manager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VPVParameterisation.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VParticleChange.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VParticleChange.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VPhysicalVolume.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VPhysicalVolume.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VProcess.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VRNtupleManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VSolid.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VSolid.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VSteppingVerbose.hh
@@ -891,12 +939,112 @@ CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/Randomize.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/evmandefs.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/evtdefs.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/g4root.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/g4root_defs.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/geomdefs.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/geomwdefs.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/globals.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/pwdefs.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/templates.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tls.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/S_STRING
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/charp_out
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/cid
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/cids
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/cstr
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/forit
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/get_lines
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/axes
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/axis
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/b1
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/b2
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/b3
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/base_histo
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h1
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h1d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h1df
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h2
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h2d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h2df
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h3
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h3d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h3df
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/histo_data
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/hmpi
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/p1
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/p1d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/p2
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/p2d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/profile_data
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/impi
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/lina/eqT
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/long_out
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/mapmanip
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/mem
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/ntuple_binding
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/ntuple_booking
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/num2s
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/path
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/platform
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/press_func
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rcmp
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rntuple
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/base_leaf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/buffer
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/ifac
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/iro
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/leaf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/named
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/ntuple
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/object
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/rbuf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/stl_vector
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/safe_cast
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/scast
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/snpf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/sout
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/sprintf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/sto
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/store/iobj_const_visitor
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/store/iobj_visitor
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/store/osc_streamers
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/strip
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/stype
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/tosu
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/touplow
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/typedefs
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/vdata
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/vfind
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/vmanip
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/basket
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/branch
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/branch_element
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/branch_object
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/bufobj
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/columns.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/date
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/directory
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/element
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/file
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/free_seg
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/ibo
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/icol
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/idir
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/ifile
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/imutex
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/info
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/infos
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/iobject
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/itree
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/key
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/member_writer
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/mpi_create_basket
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/ntuple
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/seek
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/streamers
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/to
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/tree
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/wbuf
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/trajectoryControl.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/trkdefs.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/windefs.hh
@@ -1045,17 +1193,169 @@ CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tls.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/windefs.hh
 CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o
+ ../inc/Analysis.hh
  ../inc/CASCADERunAction.hh
  /home/thomas/github/CASCADE/src/CASCADERunAction.cc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AnalysisManagerState.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AnalysisUtilities.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4AnalysisVerbose.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BaseAnalysisManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BaseFileManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BaseNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BaseRNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4BinScheme.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ExceptionSeverity.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4Fcn.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4H1ToolsManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4H2ToolsManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4H3ToolsManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4HnInformation.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4HnManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4P1ToolsManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4P2ToolsManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootAnalysisManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootAnalysisManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootAnalysisReader.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootAnalysisReader.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootFileManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4RootRNtupleManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4String.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4String.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4SystemOfUnits.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4THnManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4THnManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TNtupleDescription.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TNtupleManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TRNtupleDescription.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TRNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4TRNtupleManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4Threading.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ToolsAnalysisManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ToolsAnalysisManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ToolsAnalysisReader.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ToolsAnalysisReader.icc
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4Types.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4UserRunAction.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VAnalysisManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VAnalysisManager.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VAnalysisReader.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VAnalysisReader.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VFileManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VH1Manager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VH2Manager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VH3Manager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VNtupleManager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VP1Manager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VP2Manager.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4VRNtupleManager.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/G4ios.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/g4root.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/g4root_defs.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/globals.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/templates.hh
  /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tls.hh
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/S_STRING
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/charp_out
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/cid
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/cids
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/cstr
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/forit
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/get_lines
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/axes
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/axis
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/b1
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/b2
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/b3
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/base_histo
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h1
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h1d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h1df
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h2
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h2d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h2df
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h3
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h3d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/h3df
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/histo_data
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/hmpi
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/p1
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/p1d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/p2
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/p2d
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/histo/profile_data
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/impi
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/lina/eqT
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/long_out
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/mapmanip
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/mem
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/ntuple_binding
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/ntuple_booking
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/num2s
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/path
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/platform
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/press_func
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rcmp
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rntuple
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/base_leaf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/buffer
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/ifac
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/iro
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/leaf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/named
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/ntuple
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/object
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/rbuf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/rroot/stl_vector
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/safe_cast
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/scast
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/snpf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/sout
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/sprintf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/sto
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/store/iobj_const_visitor
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/store/iobj_visitor
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/store/osc_streamers
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/strip
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/stype
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/tosu
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/touplow
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/typedefs
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/vdata
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/vfind
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/vmanip
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/basket
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/branch
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/branch_element
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/branch_object
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/bufobj
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/columns.icc
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/date
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/directory
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/element
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/file
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/free_seg
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/ibo
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/icol
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/idir
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/ifile
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/imutex
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/info
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/infos
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/iobject
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/itree
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/key
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/member_writer
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/mpi_create_basket
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/ntuple
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/seek
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/streamers
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/to
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/tree
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/tools/wroot/wbuf
+ /opt/applications/geant4/geant4.10.04.p01-install/include/Geant4/windefs.hh
 CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o
  ../inc/CASCADEDetectorConstruction.hh
  ../inc/CASCADEEventAction.hh
