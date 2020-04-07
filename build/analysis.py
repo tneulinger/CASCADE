@@ -25,6 +25,8 @@ logEntries = np.log10(entries)
 
 
 plt.step(binEnergy, logEntries, '.')
+plt.title("Histogram of energy deposited in gas by 5.48MeV alpha")
+plt.ylabel("Log10 Number of Counts")
 plt.xlabel("Energy (MeV)")
 plt.grid()
 plt.show()
