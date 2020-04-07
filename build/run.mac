@@ -13,4 +13,4 @@
 
 /gps/ene/mono 5.48 MeV
 
-/run/beamOn 100
+/run/beamOn 10000
