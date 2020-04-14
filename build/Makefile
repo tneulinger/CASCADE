@@ -231,6 +231,33 @@ src/CASCADEEventAction.cc.s:
 	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.s
 .PHONY : src/CASCADEEventAction.cc.s
 
+src/CASCADEPhysicsList.o: src/CASCADEPhysicsList.cc.o
+
+.PHONY : src/CASCADEPhysicsList.o
+
+# target to build an object file
+src/CASCADEPhysicsList.cc.o:
+	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o
+.PHONY : src/CASCADEPhysicsList.cc.o
+
+src/CASCADEPhysicsList.i: src/CASCADEPhysicsList.cc.i
+
+.PHONY : src/CASCADEPhysicsList.i
+
+# target to preprocess a source file
+src/CASCADEPhysicsList.cc.i:
+	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.i
+.PHONY : src/CASCADEPhysicsList.cc.i
+
+src/CASCADEPhysicsList.s: src/CASCADEPhysicsList.cc.s
+
+.PHONY : src/CASCADEPhysicsList.s
+
+# target to generate assembly for a file
+src/CASCADEPhysicsList.cc.s:
+	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.s
+.PHONY : src/CASCADEPhysicsList.cc.s
+
 src/CASCADEPrimaryGeneratorAction.o: src/CASCADEPrimaryGeneratorAction.cc.o
 
 .PHONY : src/CASCADEPrimaryGeneratorAction.o
@@ -312,6 +339,33 @@ src/CASCADESteppingAction.cc.s:
 	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.s
 .PHONY : src/CASCADESteppingAction.cc.s
 
+src/PhysListEmStandard.o: src/PhysListEmStandard.cc.o
+
+.PHONY : src/PhysListEmStandard.o
+
+# target to build an object file
+src/PhysListEmStandard.cc.o:
+	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o
+.PHONY : src/PhysListEmStandard.cc.o
+
+src/PhysListEmStandard.i: src/PhysListEmStandard.cc.i
+
+.PHONY : src/PhysListEmStandard.i
+
+# target to preprocess a source file
+src/PhysListEmStandard.cc.i:
+	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.i
+.PHONY : src/PhysListEmStandard.cc.i
+
+src/PhysListEmStandard.s: src/PhysListEmStandard.cc.s
+
+.PHONY : src/PhysListEmStandard.s
+
+# target to generate assembly for a file
+src/PhysListEmStandard.cc.s:
+	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.s
+.PHONY : src/PhysListEmStandard.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -333,6 +387,9 @@ help:
 	@echo "... src/CASCADEEventAction.o"
 	@echo "... src/CASCADEEventAction.i"
 	@echo "... src/CASCADEEventAction.s"
+	@echo "... src/CASCADEPhysicsList.o"
+	@echo "... src/CASCADEPhysicsList.i"
+	@echo "... src/CASCADEPhysicsList.s"
 	@echo "... src/CASCADEPrimaryGeneratorAction.o"
 	@echo "... src/CASCADEPrimaryGeneratorAction.i"
 	@echo "... src/CASCADEPrimaryGeneratorAction.s"
@@ -342,6 +399,9 @@ help:
 	@echo "... src/CASCADESteppingAction.o"
 	@echo "... src/CASCADESteppingAction.i"
 	@echo "... src/CASCADESteppingAction.s"
+	@echo "... src/PhysListEmStandard.o"
+	@echo "... src/PhysListEmStandard.i"
+	@echo "... src/PhysListEmStandard.s"
 .PHONY : help
 
 

@@ -153,9 +153,33 @@ CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o.provides: CMakeFiles/CASCADE.
 CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o.provides.build: CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
 
 
+CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o: CMakeFiles/CASCADE.dir/flags.make
+CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o: ../src/CASCADEPhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o -c /home/thomas/github/CASCADE/src/CASCADEPhysicsList.cc
+
+CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/github/CASCADE/src/CASCADEPhysicsList.cc > CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.i
+
+CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/github/CASCADE/src/CASCADEPhysicsList.cc -o CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.s
+
+CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o.requires:
+
+.PHONY : CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o.requires
+
+CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o.provides: CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o.requires
+	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o.provides.build
+.PHONY : CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o.provides
+
+CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o.provides.build: CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o
+
+
 CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o: CMakeFiles/CASCADE.dir/flags.make
 CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o: ../src/CASCADEPrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o -c /home/thomas/github/CASCADE/src/CASCADEPrimaryGeneratorAction.cc
 
 CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o.provides.build: CM
 
 CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o: CMakeFiles/CASCADE.dir/flags.make
 CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o: ../src/CASCADERunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o -c /home/thomas/github/CASCADE/src/CASCADERunAction.cc
 
 CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o.provides.build: CMakeFiles/CASC
 
 CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o: CMakeFiles/CASCADE.dir/flags.make
 CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o: ../src/CASCADESteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o -c /home/thomas/github/CASCADE/src/CASCADESteppingAction.cc
 
 CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.i: cmake_force
@@ -225,15 +249,41 @@ CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o.provides: CMakeFiles/CASCA
 CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o.provides.build: CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o
 
 
+CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o: CMakeFiles/CASCADE.dir/flags.make
+CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o: ../src/PhysListEmStandard.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o -c /home/thomas/github/CASCADE/src/PhysListEmStandard.cc
+
+CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/github/CASCADE/src/PhysListEmStandard.cc > CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.i
+
+CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/github/CASCADE/src/PhysListEmStandard.cc -o CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.s
+
+CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o.requires:
+
+.PHONY : CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o.requires
+
+CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o.provides: CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o.requires
+	$(MAKE) -f CMakeFiles/CASCADE.dir/build.make CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o.provides.build
+.PHONY : CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o.provides
+
+CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o.provides.build: CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o
+
+
 # Object files for target CASCADE
 CASCADE_OBJECTS = \
 "CMakeFiles/CASCADE.dir/CASCADE.cc.o" \
 "CMakeFiles/CASCADE.dir/src/CASCADEActionInitialization.cc.o" \
 "CMakeFiles/CASCADE.dir/src/CASCADEDetectorConstruction.cc.o" \
 "CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o" \
+"CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o" \
 "CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o" \
 "CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o" \
-"CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o"
+"CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o" \
+"CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o"
 
 # External object files for target CASCADE
 CASCADE_EXTERNAL_OBJECTS =
@@ -242,9 +292,11 @@ CASCADE: CMakeFiles/CASCADE.dir/CASCADE.cc.o
 CASCADE: CMakeFiles/CASCADE.dir/src/CASCADEActionInitialization.cc.o
 CASCADE: CMakeFiles/CASCADE.dir/src/CASCADEDetectorConstruction.cc.o
 CASCADE: CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o
+CASCADE: CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o
 CASCADE: CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o
 CASCADE: CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o
 CASCADE: CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o
+CASCADE: CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o
 CASCADE: CMakeFiles/CASCADE.dir/build.make
 CASCADE: /opt/applications/geant4/geant4.10.04.p01-install/lib/libG4Tree.so
 CASCADE: /opt/applications/geant4/geant4.10.04.p01-install/lib/libG4GMocren.so
@@ -294,7 +346,7 @@ CASCADE: /opt/applications/geant4/geant4.10.04.p01-install/lib/libG4intercoms.so
 CASCADE: /opt/applications/geant4/geant4.10.04.p01-install/lib/libG4global.so
 CASCADE: /opt/applications/geant4/geant4.10.04.p01-install/lib/libG4clhep.so
 CASCADE: CMakeFiles/CASCADE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CASCADE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/github/CASCADE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CASCADE"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CASCADE.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -306,9 +358,11 @@ CMakeFiles/CASCADE.dir/requires: CMakeFiles/CASCADE.dir/CASCADE.cc.o.requires
 CMakeFiles/CASCADE.dir/requires: CMakeFiles/CASCADE.dir/src/CASCADEActionInitialization.cc.o.requires
 CMakeFiles/CASCADE.dir/requires: CMakeFiles/CASCADE.dir/src/CASCADEDetectorConstruction.cc.o.requires
 CMakeFiles/CASCADE.dir/requires: CMakeFiles/CASCADE.dir/src/CASCADEEventAction.cc.o.requires
+CMakeFiles/CASCADE.dir/requires: CMakeFiles/CASCADE.dir/src/CASCADEPhysicsList.cc.o.requires
 CMakeFiles/CASCADE.dir/requires: CMakeFiles/CASCADE.dir/src/CASCADEPrimaryGeneratorAction.cc.o.requires
 CMakeFiles/CASCADE.dir/requires: CMakeFiles/CASCADE.dir/src/CASCADERunAction.cc.o.requires
 CMakeFiles/CASCADE.dir/requires: CMakeFiles/CASCADE.dir/src/CASCADESteppingAction.cc.o.requires
+CMakeFiles/CASCADE.dir/requires: CMakeFiles/CASCADE.dir/src/PhysListEmStandard.cc.o.requires
 
 .PHONY : CMakeFiles/CASCADE.dir/requires
 

@@ -6,8 +6,9 @@
 #include "G4VisManager.hh"
 #include "G4VisExecutive.hh"
 
-#include "CASCADEDetectorConstruction.hh"
 #include "CASCADEActionInitialization.hh"
+#include "CASCADEDetectorConstruction.hh"
+#include "CASCADEPhysicsList.hh"
 
 int main(int argc, char** argv)
 {
@@ -41,11 +42,12 @@ int main(int argc, char** argv)
   // physics list
   // G4String physListName = "FTFP_BERT_EMZ";
   // G4String physListName = "QGSP_BIC";
-  G4String physListName = "LBE";
-  G4PhysListFactory physListFactory;
-  G4VModularPhysicsList* physList
-   = physListFactory.GetReferencePhysList( physListName );
-  runManager->SetUserInitialization( physList );
+  // G4String physListName = "LBE";
+  // G4PhysListFactory physListFactory;
+  // G4VModularPhysicsList* physList
+   // = physListFactory.GetReferencePhysList( physListName );
+  // runManager->SetUserInitialization( physList );
+  runManager->SetUserInitialization( new CASCADEPhysicsList() );
 
   // action initialization
   CASCADEActionInitialization* ai = new CASCADEActionInitialization;
