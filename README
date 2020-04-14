@@ -1,5 +1,13 @@
 CASCADE detector simulation
 
+Simulates passage of 5.48MeV alpha particles through Ar(85)/CO2(15) balance
+gas and generate histogram of energy deposited.
+
+Status: 14/04/2020
+Would need to really figure out what physics is applicable here for this
+simulation to be meaningful. At the moment the physics is probably wrong.
+
+
 # TO BUILD AND RUN:
 
 # 1. change to build directory
