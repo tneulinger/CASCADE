@@ -39,7 +39,9 @@ int main(int argc, char** argv)
   runManager->SetUserInitialization( detector );
 
   // physics list
-  G4String physListName = "FTFP_BERT_EMZ";
+  // G4String physListName = "FTFP_BERT_EMZ";
+  // G4String physListName = "QGSP_BIC";
+  G4String physListName = "LBE";
   G4PhysListFactory physListFactory;
   G4VModularPhysicsList* physList
    = physListFactory.GetReferencePhysList( physListName );

@@ -7,11 +7,29 @@
       <item key="axis_x.title" value=""/>
     </annotation>
     <axis direction="x" numberOfBins="100" min="0" max="6"/>
-    <statistics entries="1">
-      <statistic direction="x" mean="5.479999999999971116437791" rms="0"/>
+    <statistics entries="100">
+      <statistic direction="x" mean="5.112204726348426930826463" rms="0.8581983689816979898878913"/>
     </statistics>
     <data1d>
-      <bin1d binNum="91" entries="1" height="1" error="1" weightedMean="5.479999999999971116437791"/>
+      <bin1d binNum="4" entries="1" height="1" error="1" weightedMean="0.2974273338717537407127622"/>
+      <bin1d binNum="29" entries="1" height="1" error="1" weightedMean="1.775463099654618126521655"/>
+      <bin1d binNum="54" entries="1" height="1" error="1" weightedMean="3.251686731435149635416337"/>
+      <bin1d binNum="55" entries="1" height="1" error="1" weightedMean="3.340730236920188112037522"/>
+      <bin1d binNum="57" entries="1" height="1" error="1" weightedMean="3.472826795478690442564584"/>
+      <bin1d binNum="58" entries="1" height="1" error="1" weightedMean="3.537221004415761704819943"/>
+      <bin1d binNum="59" entries="2" height="2" error="1.414213562373095145474622" weightedMean="3.581182279275252344774572" weightedRms="0.00226931791501279109257716"/>
+      <bin1d binNum="61" entries="3" height="3" error="1.732050807568877193176604" weightedMean="3.680194670463847739227958" weightedRms="0.01140916968324228765452322"/>
+      <bin1d binNum="63" entries="1" height="1" error="1" weightedMean="3.818389122872285934562342"/>
+      <bin1d binNum="66" entries="1" height="1" error="1" weightedMean="3.964740111962433921632964"/>
+      <bin1d binNum="67" entries="1" height="1" error="1" weightedMean="4.035948104047890616641325"/>
+      <bin1d binNum="68" entries="1" height="1" error="1" weightedMean="4.10391188226119307813633"/>
+      <bin1d binNum="71" entries="1" height="1" error="1" weightedMean="4.284860272614158027693065"/>
+      <bin1d binNum="78" entries="2" height="2" error="1.414213562373095145474622" weightedMean="4.691193229002280418171722" weightedRms="0.004409721113402538354708593"/>
+      <bin1d binNum="82" entries="1" height="1" error="1" weightedMean="4.937615961549987275702733"/>
+      <bin1d binNum="83" entries="1" height="1" error="1" weightedMean="5.029016091519366682405234"/>
+      <bin1d binNum="87" entries="2" height="2" error="1.414213562373095145474622" weightedMean="5.250333842641241588466983" weightedRms="0.02313605105205164894077718"/>
+      <bin1d binNum="89" entries="1" height="1" error="1" weightedMean="5.392124698598837362339964"/>
+      <bin1d binNum="91" entries="77" height="77" error="8.774964387392122588948951" weightedMean="5.479123486680667731718586" weightedRms="0.001660005135563934197673319"/>
     </data1d>
   </histogram1d>
 </aida>
