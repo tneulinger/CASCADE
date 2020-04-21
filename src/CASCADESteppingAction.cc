@@ -8,7 +8,7 @@
 #include "G4LogicalVolume.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
+//
 CASCADESteppingAction::CASCADESteppingAction(CASCADEEventAction* eventAction)
 : G4UserSteppingAction(),
   fEventAction(eventAction),
